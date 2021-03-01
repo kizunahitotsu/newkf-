@@ -1,0 +1,207 @@
+Role                   : LIN
+Level                  : 400
+Max HP                 : 53205
+HP Recover             : 4%+880
+Physical Attack        : 6922+0
+Magical Attack         : 12+0
+Absolute Attack        : 0
+Attack Speed           : 1917+440
+Physical Breach        : 22%+375
+Magical Breach         : 0%+0
+Skill Rate             : 1(1%)
+Critical Rate          : 385(79%)
+Critical Breach        : 22%
+Life Steal             : 60%
+Physical Defence       : 467+220(68%)
+Magical Defence        : 777+220(99%)
+Physical Damage Reduce : 440
+Magical Damage Reduce  : 440
+Max Shield             : 50
+Shield Recover         : 0%+0
+Damage Reflection      : 25%
+Aura Skill Set         : BI FEI
+Aura Filter            :
+Wish Points            : 2 2 2 2 2 0 0
+
+Version                : 0.3.4.7
+
+Number of threads for calculation: 12
+Number of tests for win rate calculation: 10000
+Start level for al calculation: 0
+Reduce rate of skill/critical: 3/10
+PC opponent weight: 1-1
+Attribute seed max: 1000000
+Defender mode: MIXED
+Verbose mode: ON
+t <enemy> : Show details of single battle with <enemy>
+ti <enemy> : Same as t, but user can control SKL/CRT in each round
+b <enemy> : Calculate average win rate for <enemy>
+bnpc : Calculate win rate for all NPC in config file
+bpc : Calculate win rate for all PC in config file
+anpc : Calculate attributes for all NPC in config file
+apc : Calculate attributes for all PC in config file
+al <Rank> <MU> <ZHU> <DENG> <SHOU> :
+    Calculate best profit for given NPC base level
+rank : Calculate VS rank of all PC data and myself
+threads <n> : Set number of threads for calculation
+tests <n> : Set number of tests for win rate calculation
+startlevel <n> : Set start level for al calculation
+reducerate <a> <b> : Set reduce rate to a/b
+pcweight <a> <b> : Set weight range of PC opponents
+seedmax <n> : Set max number of attribute seeds
+defender [0|1|2] : Set defender mode for PvP calculation
+verbose [0|1] : Set verbose mode for attribute calculation
+q : quit
+<enemy> := NPC <n> | PC <n> | PC <alias> | <NPCType> <Level> <PowerUp>
+
+Progress: 0.91%    
+Progress: 1.82%    
+Progress: 2.73%    
+Progress: 3.64%    
+Progress: 4.55%    
+Progress: 5.45%    
+Progress: 6.36%    
+Progress: 7.27%    
+Progress: 8.18%    
+Progress: 9.09%    
+Progress: 10.00%    
+Progress: 10.91%    
+Progress: 11.82%    
+Progress: 12.73%    
+Progress: 13.64%    
+Progress: 14.55%    
+Progress: 15.45%    
+Progress: 16.36%    
+Progress: 17.27%    
+Progress: 18.18%    
+Progress: 19.09%    
+Progress: 20.00%    
+Progress: 20.91%    
+Progress: 21.82%    
+Progress: 22.73%    
+Progress: 23.64%    
+Progress: 24.55%    
+Progress: 25.45%    
+Progress: 26.36%    
+Progress: 27.27%    
+Progress: 28.18%    
+Progress: 29.09%    
+Progress: 30.00%    
+Progress: 30.91%    
+Progress: 31.82%    
+Progress: 32.73%    
+Progress: 33.64%    
+Progress: 34.55%    
+Progress: 35.45%    
+Progress: 36.36%    
+Progress: 37.27%    
+Progress: 38.18%    
+Progress: 39.09%    
+Progress: 40.00%    
+Progress: 40.91%    
+Progress: 41.82%    
+Progress: 42.73%    
+Progress: 43.64%    
+Progress: 44.55%    
+Progress: 45.45%    
+Progress: 46.36%    
+Progress: 47.27%    
+Progress: 48.18%    
+Progress: 49.09%    
+Progress: 50.00%    
+Progress: 50.91%    
+Progress: 51.82%    
+Progress: 52.73%    
+Progress: 53.64%    
+Progress: 54.55%    
+Progress: 55.45%    
+Progress: 56.36%    
+Progress: 57.27%    
+Progress: 58.18%    
+Progress: 59.09%    
+Progress: 60.00%    
+Progress: 60.91%    
+Progress: 61.82%    
+Progress: 62.73%    
+Progress: 63.64%    
+Progress: 64.55%    
+Progress: 65.45%    
+Progress: 66.36%    
+Progress: 67.27%    
+Progress: 68.18%    
+Progress: 69.09%    
+Progress: 70.00%    
+Progress: 70.91%    
+Progress: 71.82%    
+Progress: 72.73%    
+Progress: 73.64%    
+Progress: 74.55%    
+Progress: 75.45%    
+Progress: 76.36%    
+Progress: 77.27%    
+Progress: 78.18%    
+Progress: 79.09%    
+Progress: 80.00%    
+Progress: 80.91%    
+Progress: 81.82%    
+Progress: 82.73%    
+Progress: 83.64%    
+Progress: 84.55%    
+Progress: 85.45%    
+Progress: 86.36%    
+Progress: 87.27%    
+Progress: 88.18%    
+Progress: 89.09%    
+Progress: 90.00%    
+Progress: 90.91%    
+Progress: 91.82%    
+Progress: 92.73%    
+Progress: 93.64%    
+Progress: 94.55%    
+Progress: 95.45%    
+Progress: 96.36%    
+Progress: 97.27%    
+Progress: 98.18%    
+Progress: 99.09%    
+Progress: 100.00%    
+                              
+  1: 95.838% (ATK: 95.752% DEF: 95.924%) Myself
+  2: 91.139% (ATK: 91.142% DEF: 91.137%) LIN_turn5
+  3: 74.792% (ATK: 74.635% DEF: 74.949%) MO_turn4
+  4: 69.895% (ATK: 69.787% DEF: 70.003%) WEI_turn4
+  5: 61.296% (ATK: 61.131% DEF: 61.460%) MENG_turn4
+  6: 49.525% (ATK: 49.477% DEF: 49.573%) AI_turn4
+  7: 46.705% (ATK: 46.556% DEF: 46.853%) LIN_turn4
+  8: 23.418% (ATK: 23.430% DEF: 23.405%) LIN_turn3
+  9: 17.743% (ATK: 17.758% DEF: 17.728%) AI_turn3
+ 10: 10.550% (ATK: 10.544% DEF: 10.556%) WEI_turn3
+ 11:  9.100% (ATK:  9.079% DEF:  9.121%) MENG_turn3
+
+Number of threads for calculation: 12
+Number of tests for win rate calculation: 10000
+Start level for al calculation: 0
+Reduce rate of skill/critical: 3/10
+PC opponent weight: 1-1
+Attribute seed max: 1000000
+Defender mode: MIXED
+Verbose mode: ON
+t <enemy> : Show details of single battle with <enemy>
+ti <enemy> : Same as t, but user can control SKL/CRT in each round
+b <enemy> : Calculate average win rate for <enemy>
+bnpc : Calculate win rate for all NPC in config file
+bpc : Calculate win rate for all PC in config file
+anpc : Calculate attributes for all NPC in config file
+apc : Calculate attributes for all PC in config file
+al <Rank> <MU> <ZHU> <DENG> <SHOU> :
+    Calculate best profit for given NPC base level
+rank : Calculate VS rank of all PC data and myself
+threads <n> : Set number of threads for calculation
+tests <n> : Set number of tests for win rate calculation
+startlevel <n> : Set start level for al calculation
+reducerate <a> <b> : Set reduce rate to a/b
+pcweight <a> <b> : Set weight range of PC opponents
+seedmax <n> : Set max number of attribute seeds
+defender [0|1|2] : Set defender mode for PvP calculation
+verbose [0|1] : Set verbose mode for attribute calculation
+q : quit
+<enemy> := NPC <n> | PC <n> | PC <alias> | <NPCType> <Level> <PowerUp>
