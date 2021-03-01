@@ -36,6 +36,3 @@ for line in newkf_lines:
 newkf=open('newkf.in',mode='w+',encoding='UTF-8')
 newkf.writelines(newkf_lines)
 newkf.close()
-
-record=open('记录.txt',mode='w+',encoding='UTF-8')
-record.close()
