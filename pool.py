@@ -113,3 +113,5 @@ for i in range(2,11):
 newkf_lines.insert(2,'LIN '+level+WISH+'1 1 1 1 1 1 \nNONE\nNONE\nNONE\nNONE\n0\n\n')
 newkf.writelines(newkf_lines)
 newkf.close()
+
+print('已完成第',turn,'轮迭代！')
