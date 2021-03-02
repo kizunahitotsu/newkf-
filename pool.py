@@ -23,7 +23,7 @@ PCs_name=[]
 PCs=[]
 
 for line in output_lines:
-    if(line.lstrip().startswith('1: ')==True):
+    if(line.lstrip().startswith('1:')==True):
         start_line_rank=output_lines.index(line)
         break
 
