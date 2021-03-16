@@ -26,7 +26,7 @@ while(line_index<len(record_lines)):
 #print(PCs[index])
 '''
 #提取胜率最高的PC
-names=['LIN','MO','AI','MENG','WEI']
+names=['LIN','MO','AI','MENG','WEI','YI']
 for line in record_lines:
     if(len(line.split())>0):
         if(line.split()[0]==names[index]):
