@@ -19,7 +19,7 @@ newkf=open('newkf.in',mode='r',encoding='UTF-8')
 newkf_lines=newkf.readlines()
 newkf.close()
 
-#按照LIN,MO,AI,MENG,WEI,LIN的顺序换卡
+#按照LIN,MO,AI,MENG,WEI,YI,LIN的顺序换卡
 names=['LIN','MO','AI','MENG','WEI','YI','LIN']
 name=newkf_lines[2].split()[0]
 temp=newkf_lines[2].lstrip(name)
